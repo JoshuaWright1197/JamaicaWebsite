@@ -1,0 +1,352 @@
+body
+{
+	font-family:cursive,sans-serif;
+    background-image: url(img/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    opacity: .85;
+}
+
+#wrap
+{
+	width: 80%;
+	max-width: 960px;
+	min-width: 600px;
+	margin: 10px auto; 
+	padding: 0px;
+	overflow:auto;
+    background-color: white;
+    border:3px solid black;
+}
+
+
+nav ul 
+{
+    border:3px solid black;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	list-style-type: none;
+    background-color:green;
+}
+
+nav li:hover
+{
+   text-decoration: underline;
+}
+nav li 
+{
+    margin-top: 0px;
+    padding-top: 5px;
+	padding-right: 50px;
+    padding-bottom: 5px;
+	font-weight:bold;
+    display:inline;
+    font-size: 26px;
+    
+}
+
+nav a 
+{
+	color : black;
+	text-decoration:none
+}
+
+#banner img
+{
+    width:100%;
+    padding:0px;
+    margin:0px;
+    margin-bottom: -6px;
+}
+
+
+h1
+{
+    font-size: 38px;
+    text-decoration:underline;
+}
+
+h1,p
+{
+    padding: 10px;
+}
+
+.Dish img
+{
+    float :right;
+    margin-left: 5;
+    margin-right: 15px;
+    border:2px solid black;
+    
+}
+
+.nanny img
+{
+    float: left;
+    margin-right: 5px;
+}
+
+.bogle img
+{
+    float: right;
+    margin-right: 5px;
+}
+
+.gordon img
+{
+    float: left;
+    margin: 35px;
+    padding-bottom:80px;
+}
+
+.garvey img
+{
+    float: right;
+    margin-right: 10px; 
+}
+
+.manley img
+{
+    float:left;
+    margin: 10px;
+    padding-bottom:80px;
+    padding-right:90px;
+    padding-left:20px;
+
+}
+
+.sharp img
+{
+    float: right;
+    margin: 5px;
+ 
+}
+
+.ab img
+{
+    float: left;
+    margin: 5px;
+}
+
+h2
+{
+    padding-left:25px;
+}
+
+.content
+{ 
+    width: 100%;
+    height: 530px;
+    overflow: auto; 
+}
+
+.regga img
+{
+    float: left;
+    margin: 55px;
+    margin-bottom:200px;
+    border:2px solid black;
+}
+
+.shabba img
+{
+    float:right;
+    margin: 60px;
+    border:2px solid black;
+}
+
+.kartel img 
+{
+    float:left;
+    margin:60px;
+    border:2px solid black;
+}
+
+#footer p
+{
+    border-top: 2px solid black;
+    margin:0;
+    padding: 0;
+    clear: both;
+}
+
+.map img
+{
+    float:left;
+    margin:120px;
+    margin-bottom: 0;
+}
+.map p 
+{
+    float:left;
+    margin:120px;
+    margin-top: 0;
+    
+}
+
+
+@media only screen and (max-width: 1055px) 
+{
+     #wrap
+    {
+        width: 100%;
+        padding: 0px;
+	    min-width: 100%;
+        margin: 0px;
+        overflow:auto;
+        background-color: white;
+        border:2px solid #333;
+    }
+     body
+    {
+        background-image:none;
+        opacity:1; 
+    }
+
+    nav ul 
+    {
+        list-style-type:disc;
+    }
+     nav li 
+    {
+        display:list-item;
+        font-size: 20px;
+    }
+
+    h1
+    {
+        font-size: 32px;
+    }
+
+     h1,p
+    {
+        padding: 5px;
+    }
+    
+    img
+    {
+        padding:0px;
+        margin:0px;
+    }
+    
+    .content
+    { 
+        width:auto;
+        height:auto;
+    }
+    
+    .Dish img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px; 
+        box-shadow: 10px 10px 25px black;
+        border:none;
+    }  
+    
+    .nanny img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;   
+    }  
+    
+    .bogle img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;   
+    }  
+    
+    .gordon img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;   
+    } 
+    
+    .garvey img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;   
+    } 
+    
+    .manley img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;   
+    } 
+    
+    .sharp img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;   
+    }  
+    
+    .ab img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;
+    }  
+    
+    .regga img
+    {
+        float :none;
+        margin: 0;
+        padding:0;
+        margin-left:20px;
+        box-shadow: 10px 10px 25px black;
+        border: none;
+    }  
+    
+    .shabba img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;
+        box-shadow: 10px 10px 25px black;
+        border: none;
+    } 
+    
+    .kartel img
+    {
+        float :none;
+        margin: 0;
+        padding: 0;
+        margin-left:20px;
+        box-shadow: 10px 10px 25px black;
+        border: none;
+    }  
+    .map img
+    {
+        margin: 50px;
+        margin-bottom: 0;
+        max-width:80%;
+        height:auto;
+        
+    }
+    
+    .map p
+    {
+        margin: 50px;
+        margin-top: 0;
+    }
+    
+}
+
+
+
